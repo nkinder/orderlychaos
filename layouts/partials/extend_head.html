@@ -1,0 +1,10 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var header = document.querySelector('header.header');
+  if (header) {
+    var banner = document.createElement('div');
+    banner.className = 'site-banner';
+    header.insertAdjacentElement('afterend', banner);
+  }
+});
+</script>
