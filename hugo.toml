@@ -18,9 +18,8 @@ buildExpired = false
 [params]
   env = "production"
   title = "Orderly Chaos"
-  description = "Electronics, FPGA, motorsport tech, and video synthesis — by Nate Kinder"
-  keywords = ["FPGA", "electronics", "motorsport", "CAN bus", "video synthesis", "embedded"]
-  author = "Nate Kinder"
+  description = "Software, electronics, FPGA, motorsport tech, and video synthesis"
+  keywords = ["FPGA", "electronics", "motorsport", "CAN bus", "video synthesis", "embedded", "software"]
   # profileMode or homeInfoParams controls the home page layout (see below)
   defaultTheme = "auto"   # "light", "dark", or "auto" (follows system preference)
   disableThemeToggle = false
@@ -43,8 +42,8 @@ buildExpired = false
   # Home page info block
   [params.homeInfoParams]
     Title = "Orderly Chaos"
-    Content = """Welcome. I'm Nate — an engineer who builds things at the intersection of hardware, firmware, and the occasional racecar. \
-This blog documents technical projects as they happen: electronics, FPGA work, motorsport data systems, and video synthesis. \
+    Content = """Welcome. I'm Nate — a software developer who builds things across the stack: from software to hardware, firmware, FPGA work, and the occasional racecar. \
+This blog documents technical projects as they happen: electronics, software, FPGA work, motorsport data systems, and video synthesis. \
 Expect build logs, code, schematics, and honest write-ups of what worked and what didn't."""
 
   # Social links shown in footer / home page
