@@ -1,0 +1,18 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Hugo cache
+/.hugo_build.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+*.swp
+*.swo
