@@ -18,7 +18,7 @@ buildExpired = false
 [params]
   env = "production"
   title = "Orderly Chaos"
-  description = "Software, electronics, FPGA, motorsport tech, and video synthesis"
+  description = "Software, electronics, motorsport tech, and video synthesis"
   keywords = ["FPGA", "electronics", "motorsport", "CAN bus", "video synthesis", "embedded", "software"]
   # profileMode or homeInfoParams controls the home page layout (see below)
   defaultTheme = "auto"   # "light", "dark", or "auto" (follows system preference)
@@ -43,7 +43,7 @@ buildExpired = false
   [params.homeInfoParams]
     Title = "Orderly Chaos"
     Content = """Welcome. I'm Nate — a software developer who builds things across the stack: from software to hardware, firmware, FPGA work, and the occasional racecar. \
-This blog documents technical projects as they happen: electronics, software, FPGA work, motorsport data systems, and video synthesis. \
+This blog documents technical projects as they happen: whatever comes across the workbench. \
 Expect build logs, code, schematics, and honest write-ups of what worked and what didn't."""
 
   # Social links shown in footer / home page
