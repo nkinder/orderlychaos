@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Monochrome mask icon for Safari pinned tabs — black shapes on transparent -->
+  <rect width="512" height="512" rx="90" fill="black"/>
+  <text
+    x="256"
+    y="355"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="245"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="white"
+    letter-spacing="-8">OC</text>
+</svg>
