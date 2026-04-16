@@ -1,0 +1,21 @@
+{
+  "name": "Orderly Chaos",
+  "short_name": "Orderly Chaos",
+  "description": "Software, electronics, motorsport tech, and video synthesis",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#2e2e33",
+  "theme_color": "#2e2e33",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
