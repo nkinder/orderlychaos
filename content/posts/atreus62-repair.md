@@ -15,13 +15,13 @@ cover:
   relative: false
 ---
 
-My main keyboard for the last six years has been an [Atreus62](https://github.com/profet23/atreus62) — a 62-key ortholinear board. It's been bulletproof the entire time. Then, last week, it started dropping keystrokes here and there. The flakiness got worse over the next few days. Eventually the entire top row of letters went silent.
+My main keyboard for the last six years has been an [Atreus62](https://github.com/profet23/atreus62) — a 62-key ergonomic split mechanical keyboard with column-linear, vertically staggered keys. It's been bulletproof the entire time. Then, last week, it started dropping keystrokes here and there. The flakiness got worse over the next few days. Eventually the entire top row of letters went silent.
 
 This is the point where a closed-source peripheral becomes e-waste. Instead, I spent an afternoon at the bench, rebuilt the firmware from source, swapped an inexpensive microcontroller, and got my keyboard back. The only reason that was possible is that every layer of the thing is open.
 
 ## What the Atreus62 Is
 
-The Atreus62 is a 62-key ortholinear mechanical keyboard originally designed by [profet23](https://github.com/profet23/atreus62), itself an expansion of Phil Hagelberg's Atreus. The PCB and case files are on GitHub. The brains are an [Arduino Pro Micro](https://www.sparkfun.com/pro-micro-5v-16mhz.html) — an ATmega32U4 dev board that's effectively the default microcontroller for hand-wired and small-batch keyboards. The firmware is [QMK](https://qmk.fm/), which runs on just about every community-built keyboard you can name.
+The Atreus62 is a 62-key ergonomic split mechanical keyboard — column-linear layout with a vertical stagger — originally designed by [profet23](https://github.com/profet23/atreus62) as an expansion of Phil Hagelberg's Atreus. The PCB and case files are on GitHub. The brains are an [Arduino Pro Micro](https://www.sparkfun.com/pro-micro-5v-16mhz.html) — an ATmega32U4 dev board that's effectively the default microcontroller for hand-wired and small-batch keyboards. The firmware is [QMK](https://qmk.fm/), which runs on just about every community-built keyboard you can name.
 
 I picked it six years ago for three reasons: I wanted something with a small footprint on my desk, I wanted the reliability of a wired keyboard, and I wanted it to be open source top to bottom. The stack delivers on that last part — open hardware, open microcontroller, open firmware. That turns out to matter a lot when something breaks.
 
