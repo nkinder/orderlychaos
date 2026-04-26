@@ -96,7 +96,7 @@ A `Makefile` glues this together nicely. Most of the open-source iCE40 example p
 
 **The resource utilization summary at the end.** Yosys prints a stats block right before the JSON backend runs. For one of the Nandland website exercises (a UART receiver feeding two 7-segment displays):
 
-```
+```text
 === UART_RX_To_7_Seg_Top ===
 
    125 submodules
@@ -153,7 +153,7 @@ Like yosys, nextpnr is loud. The four things actually worth reading:
 
 **Device utilization.** After packing, nextpnr prints the post-pack resource block:
 
-```
+```text
 Info: Device utilisation:
 Info:              ICESTORM_LC:      89/   1280     6%
 Info:             ICESTORM_RAM:       0/     16     0%
@@ -167,7 +167,7 @@ This is the more honest version of yosys' submodule count. yosys reports cells *
 
 **The max frequency PASS/FAIL.** This is the headline result. You'll see it twice — once after initial placement, once after routing — and the post-routing one is the real number:
 
-```
+```text
 Info: Max frequency for clock 'i_Clk$SB_IO_IN_$glb_clk': 188.08 MHz (PASS at 25.00 MHz)
 ```
 
@@ -191,7 +191,7 @@ No output, just a fresh `.bin` file. If `icepack` says anything, something's wro
 
 `iceprog` flashes that binary to the SPI flash on the Go Board over USB (via the on-board FT2232H bridge — the same chip that provides the UART-over-USB interface). The output is short and worth reading every time:
 
-```
+```text
 nkinder@fedora:~/source/nandland$ iceprog UART_RX_To_7_Seg_Top.bin 
 init..
 cdone: high
@@ -234,7 +234,7 @@ Icarus Verilog ships with two binaries: `iverilog` (the compiler) and `vvp` (the
 
 The `vvp` output is short and worth reading:
 
-```
+```text
 VCD info: dumpfile dump.vcd opened for output.
 VCD warning: $dumpvars: Package ($unit) is not dumpable with VCD.
 Test Passed - Correct Byte Received
